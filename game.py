@@ -182,7 +182,6 @@ class SpaceInvaders:
         self.player.draw()
         for enemy in self.enemies:
             enemy.draw()
-            bullet.draw()
         for bullet in self.bullets:
             bullet.draw()
 
